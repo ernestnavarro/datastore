@@ -1,5 +1,5 @@
 <?php
-include_once ("MySql.php");
+include_once ("datastore2.php");
 $isdk = new LazyLoadingProxy('iSDK', array('foxxdating'));
 class DataStore {
 	function UserHasBoughtProduct($Session, $contact_id, $product_id) {
